@@ -93,7 +93,7 @@
                     </li>
                     
                      <li>
-                        <a href="contact.html">
+                        <a href="user_dashboard.php">
                             <i class="fa fa-user red_color"></i> <span>Customers</span>
                         </a>
                      </li>

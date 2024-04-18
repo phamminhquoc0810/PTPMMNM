@@ -60,9 +60,9 @@
                                  <div class="text-center">
                                     <p class="total_no"><?php echo $total_users; ?></p>
                                     <p class="head_couter">User</p>
-                                    <!-- <a class="btn btn-primary" href="ql_user.php">
+                                    <a class="btn btn-primary" href="user_dashboard.php">
                                        Xem chi tiết <i class="fa fa-arrow-right"></i> 
-                                    </a> -->
+                                    </a>
                                  </div>
                               </div>
                            </div>
