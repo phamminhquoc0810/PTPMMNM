@@ -39,7 +39,7 @@
                 <div class="row column_title">
                     <div class="col-md-12">
                         <div class="page_title">
-                            <h2>EDIT ORDERS</h2>
+                            <h2>UPDATE ORDERS</h2>
                         </div>
                     </div>
                 </div>

@@ -51,8 +51,9 @@ include('layouts/header.php');
                 </div>
             </div>
             
-
+            
             <div class="col-lg-6 col-md 12 col-12">
+            <h4 class="mt-5 bm-5">Product details</h4>
               <h6>Men/Shoes</h6>
               <h3 class="py-4"><?php echo $row['product_name']; ?></h3>
               <h2>$<?php echo $row['product_price']; ?></h2>
@@ -64,7 +65,7 @@ include('layouts/header.php');
                 <input type="number" min="0" name="product_quantity" value="1"/>
                 <button class="buy-btn" type="submit" name="add_to_cart">Add To Cart</button>
               </form>
-              <h4 class="mt-5 bm-5">Product details</h4>
+              <h4 class="mt-5 bm-5">Decription</h4>
               <span><?php echo $row['product_description']; ?></span>
             </div>
             

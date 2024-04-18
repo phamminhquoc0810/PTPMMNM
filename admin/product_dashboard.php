@@ -35,7 +35,7 @@ if(isset($_GET['page_no']) && $_GET['page_no'] !=""){
   $stmt1->fetch();
 
 
-  $total_records_per_page = 6;
+  $total_records_per_page = 5;
 
   $offset = ($page_no-1) * $total_records_per_page;
 

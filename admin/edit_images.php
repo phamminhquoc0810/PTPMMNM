@@ -20,7 +20,7 @@
                 <div class="row column_title">
                     <div class="col-md-12">
                         <div class="page_title">
-                            <h2>PRODUCTS IMAGES</h2>
+                            <h2>UPDATE PRODUCTS IMAGES</h2>
                         </div>
                     </div>
                 </div>
