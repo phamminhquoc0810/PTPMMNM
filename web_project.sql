@@ -1,3 +1,4 @@
+--Create database web_project
 CREATE TABLE IF NOT EXISTS `order_items` (
   `item_id` int(11) NOT NULL AUTO_INCREMENT,
   `order_id` int(11) NOT NULL,
