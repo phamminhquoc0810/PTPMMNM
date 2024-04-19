@@ -144,9 +144,9 @@ include('layouts/header.php');
             <div class="col-lg-12 col-md-12 col-sm-12">
 
                 <p>Price</p>
-                <input type="range" class="form-range w-50" name="price" value="<?php if(isset($price)){echo $price;}else{ echo "100";} ?>" min="200000" max="5000000" id="customRange2" />
+                <input type="range" class="form-range w-50" name="price" value="<?php if(isset($price)){echo $price;}else{ echo "100";} ?>" min="10" max="5000" id="customRange2" />
                 <div class="w-50">
-                  <span style="float: left;">200</span>
+                  <span style="float: left;">10</span>
                   <span style="float: right;">5000</span>
                 </div>
             </div>

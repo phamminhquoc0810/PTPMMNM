@@ -53,7 +53,7 @@
                      <div class="user_profle_side">
                         <div class="user_img"><img class="img-responsive" src="images/admin_img.jpg" alt="#" /></div>
                         <div class="user_info">
-                           <h6>John</h6>
+                           <h6><?php echo $_SESSION['admin_name']; ?></p></h6>
                            <p><span class="online_animation"></span> Online</p>
                         </div>
                      </div>
@@ -121,7 +121,7 @@
                               
                               <ul class="user_profile_dd">
                                  <li>
-                                    <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="images/admin_img.jpg" alt="#" /><span class="name_user">John</span></a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="images/admin_img.jpg" alt="#" /><span class="name_user"><?php echo $_SESSION['admin_name']; ?></span></a>
                                     <div class="dropdown-menu">
                                        <a class="dropdown-item" href="profile_admin.php">My Profile</a>
                                        <a class="dropdown-item" href="logout.php?logout=1"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
